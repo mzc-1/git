@@ -1,0 +1,66 @@
+﻿# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.yarn/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+.env.*
+*.so
+
+# Rust
+/target/
+
+# Go
+/vendor/
+
+# Build artifacts
+dist/
+build/
+*.exe
+*.dll
+*.dylib
+*.lib
+
+# Logs
+*.log
+
+# Temp
+*.tmp
+*.temp
+
+# Codex
+.agents/
+.codex/
+
+# Secret / config
+.env.local
+.env.production
+*.key
+*.pem
+*.cert
+*.secret
+config/local.*
